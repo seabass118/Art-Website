@@ -1,0 +1,13 @@
+@media only screen and (max-width: 920px) {
+    .Text_Container {
+        width: 100% !important;
+        height: calc(100vh - 60px) !important;
+    }
+    .Image_Container {
+        width: 100% !important;
+    }
+
+    .Home_Container {
+        flex-direction: column !important;
+    }
+}

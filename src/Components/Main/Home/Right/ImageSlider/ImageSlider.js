@@ -1,13 +1,12 @@
 import React from 'react'
-import simon from '../Images/Paintings/simon.jpg';
-import new_york from '../Images/Paintings/new_york_cafe.jpg';
-import girl from '../Images/Paintings/girl.jpg';
-import dont_walk from '../Images/Paintings/dont_walk.jpeg';
-import sliderArrow from '../Images/Icons/slider_arrow.svg';
+import simon from '../../../Images/Paintings/simon.jpg';
+import new_york from '../../../Images/Paintings/new_york_cafe.jpg';
+import girl from '../../../Images/Paintings/girl.jpg';
+import dont_walk from '../../../Images/Paintings/dont_walk.jpeg';
+import sliderArrow from '../../../Images/Icons/slider_arrow.svg';
 import './ImageSlider.css';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
-
 const slideImages = [
     simon,
     new_york,

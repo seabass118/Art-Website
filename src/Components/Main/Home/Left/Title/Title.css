@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+.Name {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.Artist {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Location {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
