@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;&display=swap');
+
 .each-slide > div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 60px);
+}
+
+.slide_title {
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    width: auto;
+    padding: 11px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(33 33 48 / 73%);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.slideLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.react-slideshow-container .nav {
+    z-index: 2 !important;
+}
+
+@media only screen and (max-width: 920px) {
+    .slide_image {
+        height: calc(100vh - 50px);
+    }
 }
